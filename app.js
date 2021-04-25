@@ -7,7 +7,7 @@ function lastUpdateTimeDate(){
     let today = date.getDate();
     let time = date.toLocaleTimeString('it-IT');
     myDate.innerHTML = `${today}/ ${month}/ ${year} ${time}`;
-    console.log(year, month, today);
+    
     
 }
 
