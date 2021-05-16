@@ -1,0 +1,73 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 41.125em) {
+	/* Horizontal Menu Examples */
+	/* Flex *********************/
+
+	.headings h1 {
+		font-size: 2em;
+	}
+
+	header {
+		padding: 1.25em 0.75em;
+		justify-content: left;
+	}
+
+	header button {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+	.navigation li a {
+		text-align: center;
+		border: none;
+		border-right: 1px solid rgba(000, 000, 000, 0.1);
+		font-size: 1em;
+		padding: 1.2em 0;
+	}
+
+	/*.navigation li:first-child {
+      display: none;
+    }*/
+
+	.navigation a:hover {
+		background-color: var(--yellow);
+		color: black;
+		font-weight: bold;
+	}
+
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 0.5em;
+		font-size: 1em;
+	}
+
+	.map {
+		display: block;
+		grid-area: 1 / 1 / span 2 / span 1;
+	}
+	.map img {
+		width: 300px;
+		display: block;
+		margin: 1em auto;
+	}
+	.social {
+		text-align: left;
+		margin-left: 2em;
+	}
+	.social img {
+		width: 37px;
+	}
+
+	.BYUfooter {
+		grid-area: 3 / 1 / span 1 / span 2;
+	}
+}

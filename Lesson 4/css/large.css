@@ -1,0 +1,29 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 960px) {
+	.navigation li {
+		margin: 0 1em;
+	}
+
+	.navigation li .active {
+		text-decoration: underline;
+	}
+	.navigation li a {
+		padding: 0.8em 0;
+		border: none;
+	}
+	header img {
+		width: 65px;
+	}
+	main {
+		padding: 1.5em;
+	}
+
+	footer {
+		padding: 1.5em;
+		max-width: 960px;
+		margin: auto;
+	}
+    footer .copy {
+        margin: 0 auto;
+    }
+}

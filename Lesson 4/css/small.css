@@ -1,0 +1,253 @@
+:root {
+	--green: #4caf52;
+	--blue: #3d6d7b;
+	--red: #ef233c;
+	--yellow: #eec584;
+	--gray: #363130;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Quicksand', Arial, sans-serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: auto;
+	background-color: var(--blue);
+}
+
+header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	padding: 0.75em 5px;
+	background-color: var(--green);
+}
+
+header button {
+	align-self: stretch;
+	padding: 0 0.5em;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+header button:active {
+	background-color: var(--yellow);
+	color: black;
+}
+
+header h1 {
+	color: white;
+	font-size: 22px;
+	margin: 0;
+}
+
+header img {
+	width: 50px;
+}
+
+header p {
+	display: inline;
+	margin: 0;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+}
+
+.headings h1 {
+	padding-bottom: 3px;
+}
+
+.motto {
+	color: whitesmoke;
+}
+
+.catchPhrase {
+	display: none;
+}
+
+main {
+	text-align: left;
+	padding: 1em;
+	background-color: white;
+	margin: auto;
+	max-width: 960px;
+}
+
+main img {
+	width: 100%;
+}
+
+nav {
+	background-color: var(--blue);
+	margin: 0;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+/*.navigation li:first-child {
+	display: block;
+    border-top: 1px solid rgba(000, 000, 000, 0.1);
+}*/
+
+.navigation li {
+	display: none;
+	border-bottom: 1px solid rgba(000, 000, 000, 0.1);
+}
+
+.navigation li a {
+	font-family: 'Quicksand', Arial, sans-serif;
+	font-size: 20px;
+	display: block;
+	color: white;
+	padding: 0.75em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navigation a:active {
+	background-color: var(--yellow);
+	color: black;
+	font-weight: bold;
+}
+
+.active {
+	color: var(--yellow);
+	font-weight: bold;
+	background-color: rgba(000, 000, 000, 0.15);
+}
+
+.responsive li {
+	display: block;
+}
+
+.header {
+	font-family: 'Quicksand', Arial, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: var(--green);
+}
+
+.primaryNav {
+	font-family: 'Quicksand', Arial, sans-serif;
+	font-size: 30px;
+	background-color: var(--blue);
+	color: white;
+}
+
+.footerNav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	background-color: var(--gray);
+	color: var(--yellow);
+}
+
+.subtitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 30px;
+	color: var(--green);
+}
+
+h2 {
+	font-size: 27px;
+	color: var(--blue);
+}
+
+h3 {
+	font-size: 20px;
+	padding-top: 0.75em;
+}
+
+h4 {
+	margin: 0.5em 1em;
+}
+
+hr {
+	margin: 1em 0;
+}
+
+.scrollUp {
+	background-color: var(--green);
+	padding: 0.75em;
+	border: none;
+	display: block;
+	margin: 0 0 0 auto;
+}
+
+.scrollUp a {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	padding: 1em;
+	background-color: var(--gray);
+	color: var(--yellow);
+	font-size: 0.9em;
+}
+
+footer p {
+	margin: 0.25em 1em;
+}
+
+footer a {
+	color: var(--yellow);
+}
+
+footer .subtitle {
+	color: whitesmoke;
+}
+
+.contact p {
+	color: whitesmoke;
+}
+
+.BYUfooter {
+	text-align: center;
+}
+
+.back {
+	font-size: 14px;
+}
+
+.social {
+	margin: 1.5em;
+	text-align: center;
+}
+
+.social a {
+	margin: 0 0.5em;
+}
+
+.social img {
+	width: 44px;
+}
+
+.map {
+	display: none;
+}
