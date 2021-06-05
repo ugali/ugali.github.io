@@ -1,0 +1,21 @@
+h1 {
+    font-family: "Noto Serif SC", Georgia, serif;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img[data-src]{
+    display: block;
+    filter: blur(0.1em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.1s;
+    margin-top: 50px;
+  }
