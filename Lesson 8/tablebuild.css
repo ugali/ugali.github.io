@@ -3,7 +3,8 @@
 	--dataRow_Even: #e7ffed;
 	--white: #ffffff;
 	--black: #000000;
-    --table_head: #7fb9c2;
+    --table_head: rgb(127, 185, 194);
+    --shadow: rgb(127, 185, 194, 0.5);
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 
 table {
 	border-collapse: collapse;
+    box-shadow: 10px 10px var(--shadow);
 }
 
 #talbe_caption {
@@ -28,7 +30,7 @@ table {
 }
 td,
 th {
-	border: 1px solid var(--white);
+	border: 2px solid var(--white);
 	padding: 0.5rem;
 	text-align: center;
 }
