@@ -1,0 +1,42 @@
+:root {
+	--dataRow_Odd: #e7f0ed;
+	--dataRow_Even: #e7ffed;
+	--white: #ffffff;
+	--black: #000000;
+    --table_head: #7fb9c2;
+}
+
+body {
+	font-family: Ubuntu, sans-serif;
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+    overflow: hidden ;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#talbe_caption {
+	background-color: var(--table_head);
+    padding: 0.5rem;
+    color: var(--black);
+    font-weight: 600;
+}
+td,
+th {
+	border: 1px solid black;
+	padding: 0.5rem;
+	text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background: #e7f0ed;
+  }
+
+.footer {
+    background-color: var(--table_head);
+    font-size: 14px;
+}
