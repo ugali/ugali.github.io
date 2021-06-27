@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibrate</title>
+</head>
+<body>
+    <h1 id="heading">Vibrate Api Test</h1>
+
+    <script>
+        let text = document.getElementById('heading');
+        //let successBool = window.navigator.vibrate(pattern);
+        text.addEventListener('click', () => {
+
+                text.style.color='red';
+                navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]); // Vibrate 'SOS' in Morse.
+            
+        });
+
+        // using double paranthesis to invoke the returned function
+
+        let sayHello = function(){
+            return function(){
+                console.log('Hello...');
+            }
+        }
+
+        sayHello()();
+
+    </script>
+</body>
+</html>
